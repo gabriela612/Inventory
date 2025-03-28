@@ -21,6 +21,11 @@ public class InventoryService {
     }
 
     public void addProduct(String name, double price, int inStock, int min, int  max, ObservableList<Part> addParts){
+        String errorMessage = "";
+        errorMessage = Product.isValidProduct(name, price, inStock, min, max, addParts, errorMessage);
+        if (errorMessage != null && !errorMessage.isEmpty()) {
+            throw new RuntimeException(errorMessage);
+        }
         Product product = new Product(repo.getAutoProductId(), name, price, inStock, min, max, addParts);
         repo.addProduct(product);
     }

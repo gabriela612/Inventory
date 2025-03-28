@@ -2,6 +2,8 @@
 package inventory.model;
 
 
+import java.util.Objects;
+
 public abstract class Part {
 
     // Declare fields
@@ -108,5 +110,17 @@ public abstract class Part {
     public String toString() {
         return this.partId+","+this.name+","+this.price+","+this.inStock+","+
                 this.min+","+this.max;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Part part)) return false;
+        return Double.compare(getPrice(), part.getPrice()) == 0 && getInStock() == part.getInStock() && getMin() == part.getMin() && getMax() == part.getMax() && Objects.equals(getName(), part.getName());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getName(), getPrice(), getInStock(), getMin(), getMax());
     }
 }

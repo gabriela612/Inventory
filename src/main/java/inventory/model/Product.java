@@ -4,6 +4,8 @@ package inventory.model;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
+import java.util.Objects;
+
 public class Product {
     
     // Declare fields
@@ -123,7 +125,7 @@ public class Product {
             errorMessage += "A name has not been entered. ";
         }
         if (min < 0) {
-            errorMessage += "The inventory level must be greater than 0. ";
+            errorMessage += "The Min value must be greater than 0. ";
         }
         if (price < 0.01) {
             errorMessage += "The price must be greater than $0. ";
@@ -150,5 +152,17 @@ public class Product {
     public String toString() {
         return "P,"+this.productId+","+this.name+","+this.price+","+this.inStock+","+
                 this.min+","+this.max;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Product product)) return false;
+        return Double.compare(getPrice(), product.getPrice()) == 0 && getInStock() == product.getInStock() && getMin() == product.getMin() && getMax() == product.getMax() && getAssociatedParts().containsAll(product.getAssociatedParts()) && Objects.equals(getName(), product.getName());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getName(), getPrice(), getInStock(), getMin(), getMax());
     }
 }

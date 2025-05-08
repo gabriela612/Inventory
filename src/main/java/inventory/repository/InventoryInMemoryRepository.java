@@ -6,6 +6,7 @@ import inventory.model.Product;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
+@SuppressWarnings("all")
 public class InventoryInMemoryRepository {
     
     // Declare fields
@@ -43,14 +44,17 @@ public class InventoryInMemoryRepository {
      * @return 
      */
     public Product lookupProduct(String searchItem) {
-        boolean isFound = false;
-        for(Product p: products) {
-            if(p.getName().contains(searchItem) || (p.getProductId()+"").equals(searchItem)) return p;
-            isFound = true;
+        String errorMessage = Product.validateName(searchItem, "");
+        if (!errorMessage.isEmpty()) {
+            throw new IllegalArgumentException("The name or ID was not entered");
         }
-        if(isFound == false) {
-            Product product = new Product(0, null, 0.0, 0, 0, 0, null);
-            return product;
+        for (Product p: products) {
+            if ((p.getProductId()+"").equals(searchItem)) {
+                return p;
+            }
+            if (p.getName().contains(searchItem)) {
+                return p;
+            }
         }
         return null;
     }

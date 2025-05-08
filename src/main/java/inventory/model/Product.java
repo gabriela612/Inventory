@@ -165,4 +165,11 @@ public class Product {
     public int hashCode() {
         return Objects.hash(getName(), getPrice(), getInStock(), getMin(), getMax());
     }
+
+    public static String validateName(String name, String errorMessage) {
+        if(name.equals("")) {
+            errorMessage += "A name has not been entered. ";
+        }
+        return errorMessage;
+    }
 }

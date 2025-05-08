@@ -86,9 +86,7 @@ public abstract class Part {
      * @return 
      */
     public static String isValidPart(String name, double price, int inStock, int min, int max, String errorMessage) {
-        if(name.equals("")) {
-            errorMessage += "A name has not been entered. ";
-        }
+        errorMessage = validateName(name, errorMessage);
         if(price < 0.01) {
             errorMessage += "The price must be greater than 0. ";
         }
@@ -106,6 +104,14 @@ public abstract class Part {
         }
         return errorMessage;
     }
+
+    public static String validateName(String name, String errorMessage) {
+        if(name.equals("")) {
+            errorMessage += "A name has not been entered. ";
+        }
+        return errorMessage;
+    }
+
     @Override
     public String toString() {
         return this.partId+","+this.name+","+this.price+","+this.inStock+","+

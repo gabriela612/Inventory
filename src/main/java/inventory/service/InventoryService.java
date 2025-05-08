@@ -39,6 +39,10 @@ public class InventoryService {
     }
 
     public Part lookupPart(String search) {
+        String errorMessage = Part.validateName(search, "");
+        if (!errorMessage.isEmpty()) {
+            throw new RuntimeException(errorMessage);
+        }
         return repo.lookupPart(search);
     }
 

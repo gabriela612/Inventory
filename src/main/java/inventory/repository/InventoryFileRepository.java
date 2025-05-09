@@ -11,8 +11,8 @@ public class InventoryFileRepository {
 
 	private static String filename = "data/items.txt";
 	private InventoryInMemoryRepository inMemoryRepository;
-	public InventoryFileRepository(){
-		this.inMemoryRepository =new InventoryInMemoryRepository();
+	public InventoryFileRepository(InventoryInMemoryRepository inMemoryRepository) {
+		this.inMemoryRepository = inMemoryRepository;
 		readParts();
 		readProducts();
 	}

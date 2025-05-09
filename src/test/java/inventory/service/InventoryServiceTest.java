@@ -4,6 +4,7 @@ import inventory.model.InhousePart;
 import inventory.model.Part;
 import inventory.model.Product;
 import inventory.repository.InventoryFileRepository;
+import inventory.repository.InventoryInMemoryRepository;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import org.junit.jupiter.api.*;
@@ -18,7 +19,7 @@ class InventoryServiceTest {
 
     @BeforeEach
     void setUp() {
-        inventoryFileRepository = new InventoryFileRepository();
+        inventoryFileRepository = new InventoryFileRepository(new InventoryInMemoryRepository());
         inventoryService = new InventoryService(inventoryFileRepository);
     }
 

@@ -1,19 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: inventory.repository.InventoryInMemoryRepositoryTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! - in inventory.repository.InventoryInMemoryRepositoryTest
-TC01  Time elapsed: 0.004 s  <<< ERROR!
-java.lang.reflect.InaccessibleObjectException: Unable to make inventory.repository.InventoryInMemoryRepositoryTest() accessible: module inventory does not "opens inventory.repository" to unnamed module @4da4253
-
-TC02  Time elapsed: 0 s  <<< ERROR!
-java.lang.reflect.InaccessibleObjectException: Unable to make inventory.repository.InventoryInMemoryRepositoryTest() accessible: module inventory does not "opens inventory.repository" to unnamed module @4da4253
-
-TC03  Time elapsed: 0 s  <<< ERROR!
-java.lang.reflect.InaccessibleObjectException: Unable to make inventory.repository.InventoryInMemoryRepositoryTest() accessible: module inventory does not "opens inventory.repository" to unnamed module @4da4253
-
-TC04  Time elapsed: 0.001 s  <<< ERROR!
-java.lang.reflect.InaccessibleObjectException: Unable to make inventory.repository.InventoryInMemoryRepositoryTest() accessible: module inventory does not "opens inventory.repository" to unnamed module @4da4253
-
-TC05  Time elapsed: 0 s  <<< ERROR!
-java.lang.reflect.InaccessibleObjectException: Unable to make inventory.repository.InventoryInMemoryRepositoryTest() accessible: module inventory does not "opens inventory.repository" to unnamed module @4da4253
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in inventory.repository.InventoryInMemoryRepositoryTest

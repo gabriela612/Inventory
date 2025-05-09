@@ -4,11 +4,11 @@ module inventory {
     requires javafx.fxml;
     requires javafx.graphics;
 
-    opens inventory             to javafx.base, javafx.controls, javafx.fxml, javafx.graphics;
-    opens inventory.model       to javafx.base, javafx.controls, javafx.fxml, javafx.graphics;
-    opens inventory.repository  to javafx.base, javafx.controls, javafx.fxml, javafx.graphics;
-    opens inventory.service     to javafx.base, javafx.controls, javafx.fxml, javafx.graphics;
-    opens inventory.controller  to javafx.base, javafx.controls, javafx.fxml, javafx.graphics;
+    opens inventory             to javafx.base, javafx.controls, javafx.fxml, javafx.graphics, org.junit.platform.commons;
+    opens inventory.model       to javafx.base, javafx.controls, javafx.fxml, javafx.graphics, org.junit.platform.commons;
+    opens inventory.repository  to javafx.base, javafx.controls, javafx.fxml, javafx.graphics, org.junit.platform.commons;
+    opens inventory.service     to javafx.base, javafx.controls, javafx.fxml, javafx.graphics, org.junit.platform.commons;
+    opens inventory.controller  to javafx.base, javafx.controls, javafx.fxml, javafx.graphics, org.junit.platform.commons;
 
     exports inventory;
     exports inventory.model;

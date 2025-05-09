@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="inventory.service.InventoryServiceTest" time="0.018" tests="10" errors="10" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="inventory.service.InventoryServiceTest" time="0.187" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\Marius\.jdks\ms-11.0.27\bin"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\Marius\AppData\Local\Temp\surefire11253261697289751275 2025-05-09T14-32-23_657-jvmRun1 surefire7034238084265588020tmp surefire_014183442683743551484tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\Marius\AppData\Local\Temp\surefire1400140443434470251 2025-05-09T14-39-51_018-jvmRun1 surefire-20250509143953169_1tmp surefire_0-20250509143953169_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Marius\Desktop\Inventory\target\test-classes;C:\Users\Marius\.m2\repository\org\mockito\mockito-core\5.11.0\mockito-core-5.11.0.jar;C:\Users\Marius\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\Marius\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.12\byte-buddy-agent-1.14.12.jar;C:\Users\Marius\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\Marius\.m2\repository\org\mockito\mockito-junit-jupiter\5.11.0\mockito-junit-jupiter-5.11.0.jar;C:\Users\Marius\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Marius\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Marius\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\Marius\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Marius\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Marius\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Marius\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-base\14-ea+4\javafx-base-14-ea+4.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-graphics\14-ea+4\javafx-graphics-14-ea+4.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-controls\14-ea+4\javafx-controls-14-ea+4.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-fxml\14-ea+4\javafx-fxml-14-ea+4.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-media\14-ea+4\javafx-media-14-ea+4.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-media\14-ea+4\javafx-media-14-ea+4-win.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-swing\14-ea+4\javafx-swing-14-ea+4.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-swing\14-ea+4\javafx-swing-14-ea+4-win.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-web\14-ea+4\javafx-web-14-ea+4.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-web\14-ea+4\javafx-web-14-ea+4-win.jar;C:\Users\Marius\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Marius\.m2\repository\org\controlsfx\controlsfx\11.0.1\controlsfx-11.0.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Marius\.m2\repository\org\apache\maven\surefire\surefire-booter\2.22.1\surefire-booter-2.22.1.jar;C:\Users\Marius\.m2\repository\org\apache\maven\surefire\surefire-api\2.22.1\surefire-api-2.22.1.jar;C:\Users\Marius\.m2\repository\org\apache\maven\surefire\surefire-logger-api\2.22.1\surefire-logger-api-2.22.1.jar;C:\Users\Marius\Desktop\Inventory\target\test-classes;C:\Users\Marius\.m2\repository\org\mockito\mockito-core\5.11.0\mockito-core-5.11.0.jar;C:\Users\Marius\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\Marius\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.12\byte-buddy-agent-1.14.12.jar;C:\Users\Marius\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\Marius\.m2\repository\org\mockito\mockito-junit-jupiter\5.11.0\mockito-junit-jupiter-5.11.0.jar;C:\Users\Marius\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Marius\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Marius\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\Marius\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Marius\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Marius\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Marius\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-base\14-ea+4\javafx-base-14-ea+4.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-graphics\14-ea+4\javafx-graphics-14-ea+4.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-controls\14-ea+4\javafx-controls-14-ea+4.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-fxml\14-ea+4\javafx-fxml-14-ea+4.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-media\14-ea+4\javafx-media-14-ea+4.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-media\14-ea+4\javafx-media-14-ea+4-win.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-swing\14-ea+4\javafx-swing-14-ea+4.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-swing\14-ea+4\javafx-swing-14-ea+4-win.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-web\14-ea+4\javafx-web-14-ea+4.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-web\14-ea+4\javafx-web-14-ea+4-win.jar;C:\Users\Marius\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Marius\.m2\repository\org\controlsfx\controlsfx\11.0.1\controlsfx-11.0.1.jar;C:\Users\Marius\.m2\repository\org\apache\maven\surefire\surefire-junit-platform\2.22.1\surefire-junit-platform-2.22.1.jar;C:\Users\Marius\.m2\repository\org\junit\platform\junit-platform-launcher\1.3.1\junit-platform-launcher-1.3.1.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Marius\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M9\surefire-booter-3.0.0-M9.jar;C:\Users\Marius\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M9\surefire-api-3.0.0-M9.jar;C:\Users\Marius\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M9\surefire-logger-api-3.0.0-M9.jar;C:\Users\Marius\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M9\surefire-shared-utils-3.0.0-M9.jar;C:\Users\Marius\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M9\surefire-extensions-spi-3.0.0-M9.jar;C:\Users\Marius\Desktop\Inventory\target\test-classes;C:\Users\Marius\.m2\repository\org\mockito\mockito-core\5.11.0\mockito-core-5.11.0.jar;C:\Users\Marius\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\Marius\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.12\byte-buddy-agent-1.14.12.jar;C:\Users\Marius\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\Marius\.m2\repository\org\mockito\mockito-junit-jupiter\5.11.0\mockito-junit-jupiter-5.11.0.jar;C:\Users\Marius\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Marius\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Marius\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\Marius\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Marius\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Marius\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Marius\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-base\14-ea+4\javafx-base-14-ea+4.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-graphics\14-ea+4\javafx-graphics-14-ea+4.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-controls\14-ea+4\javafx-controls-14-ea+4.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-fxml\14-ea+4\javafx-fxml-14-ea+4.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-media\14-ea+4\javafx-media-14-ea+4.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-media\14-ea+4\javafx-media-14-ea+4-win.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-swing\14-ea+4\javafx-swing-14-ea+4.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-swing\14-ea+4\javafx-swing-14-ea+4-win.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-web\14-ea+4\javafx-web-14-ea+4.jar;C:\Users\Marius\.m2\repository\org\openjfx\javafx-web\14-ea+4\javafx-web-14-ea+4-win.jar;C:\Users\Marius\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Marius\.m2\repository\org\controlsfx\controlsfx\11.0.1\controlsfx-11.0.1.jar;C:\Users\Marius\.m2\repository\org\apache\maven\surefire\surefire-junit-platform\3.0.0-M9\surefire-junit-platform-3.0.0-M9.jar;C:\Users\Marius\.m2\repository\org\apache\maven\surefire\common-java5\3.0.0-M9\common-java5-3.0.0-M9.jar;C:\Users\Marius\.m2\repository\org\junit\platform\junit-platform-launcher\1.6.0\junit-platform-launcher-1.6.0.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.27+6-LTS"/>
@@ -63,44 +63,567 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="addProduct_pretInvalid_TC2_ECP" classname="inventory.service.InventoryServiceTest" time="0">
-    <error message="Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not &quot;opens inventory.service&quot; to unnamed module @4da4253" type="java.lang.reflect.InaccessibleObjectException">java.lang.reflect.InaccessibleObjectException: Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not "opens inventory.service" to unnamed module @4da4253
-</error>
+  <testcase name="addProduct_pretInvalid_TC2_ECP" classname="inventory.service.InventoryServiceTest" time="0.047">
+    <system-out><![CDATA[I,1,Cog,3.751,141,41,401,121
+O,2,Spring,2.3,7,5,20,C1
+O,3,Screw,0.11,280,100,1000,CompanyLtd
+O,4,part1,1.34,15,2,15,me
+I,5,part2,1.23,11,1,11,1
+O,6,p3,1.0,11,1,13,ebgef
+I,7,p111,1.23,11,2,12,23
+O,8,part10,1.51,5,2,19,none
+I,10,part11,1.23,1,1,9,123
+I,11,part12,1.89,3,1,8,124
+O,12,Part100,2.34,10,4,10,NewCompany
+O,13,Part200,10.4,10,10,12,MyCompany
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+]]></system-out>
   </testcase>
-  <testcase name="addProduct_pretInvalid_TC3_ECP" classname="inventory.service.InventoryServiceTest" time="0.001">
-    <error message="Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not &quot;opens inventory.service&quot; to unnamed module @4da4253" type="java.lang.reflect.InaccessibleObjectException">java.lang.reflect.InaccessibleObjectException: Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not "opens inventory.service" to unnamed module @4da4253
-</error>
+  <testcase name="addProduct_pretInvalid_TC3_ECP" classname="inventory.service.InventoryServiceTest" time="0.02">
+    <system-out><![CDATA[I,1,Cog,3.751,141,41,401,121
+O,2,Spring,2.3,7,5,20,C1
+O,3,Screw,0.11,280,100,1000,CompanyLtd
+O,4,part1,1.34,15,2,15,me
+I,5,part2,1.23,11,1,11,1
+O,6,p3,1.0,11,1,13,ebgef
+I,7,p111,1.23,11,2,12,23
+O,8,part10,1.51,5,2,19,none
+I,10,part11,1.23,1,1,9,123
+I,11,part12,1.89,3,1,8,124
+O,12,Part100,2.34,10,4,10,NewCompany
+O,13,Part200,10.4,10,10,12,MyCompany
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1,Cog,3.751,141,41,401,121
+O,2,Spring,2.3,7,5,20,C1
+O,3,Screw,0.11,280,100,1000,CompanyLtd
+O,4,part1,1.34,15,2,15,me
+I,5,part2,1.23,11,1,11,1
+O,6,p3,1.0,11,1,13,ebgef
+I,7,p111,1.23,11,2,12,23
+O,8,part10,1.51,5,2,19,none
+I,10,part11,1.23,1,1,9,123
+I,11,part12,1.89,3,1,8,124
+O,12,Part100,2.34,10,4,10,NewCompany
+O,13,Part200,10.4,10,10,12,MyCompany
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+]]></system-out>
   </testcase>
-  <testcase name="addProduct_minInvalid_TC1_BVA[1]" classname="inventory.service.InventoryServiceTest" time="0">
-    <error message="Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not &quot;opens inventory.service&quot; to unnamed module @4da4253" type="java.lang.reflect.InaccessibleObjectException">java.lang.reflect.InaccessibleObjectException: Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not "opens inventory.service" to unnamed module @4da4253
-</error>
+  <testcase name="addProduct_minInvalid_TC1_BVA" classname="inventory.service.InventoryServiceTest" time="0.012"/>
+  <testcase name="addProduct_minInvalid_TC1_BVA" classname="inventory.service.InventoryServiceTest" time="0.002"/>
+  <testcase name="addProduct_minInvalid_TC4_ECP" classname="inventory.service.InventoryServiceTest" time="0.007">
+    <system-out><![CDATA[I,1,Cog,3.751,141,41,401,121
+O,2,Spring,2.3,7,5,20,C1
+O,3,Screw,0.11,280,100,1000,CompanyLtd
+O,4,part1,1.34,15,2,15,me
+I,5,part2,1.23,11,1,11,1
+O,6,p3,1.0,11,1,13,ebgef
+I,7,p111,1.23,11,2,12,23
+O,8,part10,1.51,5,2,19,none
+I,10,part11,1.23,1,1,9,123
+I,11,part12,1.89,3,1,8,124
+O,12,Part100,2.34,10,4,10,NewCompany
+O,13,Part200,10.4,10,10,12,MyCompany
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1,Cog,3.751,141,41,401,121
+O,2,Spring,2.3,7,5,20,C1
+O,3,Screw,0.11,280,100,1000,CompanyLtd
+O,4,part1,1.34,15,2,15,me
+I,5,part2,1.23,11,1,11,1
+O,6,p3,1.0,11,1,13,ebgef
+I,7,p111,1.23,11,2,12,23
+O,8,part10,1.51,5,2,19,none
+I,10,part11,1.23,1,1,9,123
+I,11,part12,1.89,3,1,8,124
+O,12,Part100,2.34,10,4,10,NewCompany
+O,13,Part200,10.4,10,10,12,MyCompany
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+]]></system-out>
   </testcase>
-  <testcase name="addProduct_minInvalid_TC1_BVA[2]" classname="inventory.service.InventoryServiceTest" time="0">
-    <error message="Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not &quot;opens inventory.service&quot; to unnamed module @4da4253" type="java.lang.reflect.InaccessibleObjectException">java.lang.reflect.InaccessibleObjectException: Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not "opens inventory.service" to unnamed module @4da4253
-</error>
+  <testcase name="addProduct_validData_TC1_ECP" classname="inventory.service.InventoryServiceTest" time="0.021">
+    <system-out><![CDATA[I,1,Cog,3.751,141,41,401,121
+O,2,Spring,2.3,7,5,20,C1
+O,3,Screw,0.11,280,100,1000,CompanyLtd
+O,4,part1,1.34,15,2,15,me
+I,5,part2,1.23,11,1,11,1
+O,6,p3,1.0,11,1,13,ebgef
+I,7,p111,1.23,11,2,12,23
+O,8,part10,1.51,5,2,19,none
+I,10,part11,1.23,1,1,9,123
+I,11,part12,1.89,3,1,8,124
+O,12,Part100,2.34,10,4,10,NewCompany
+O,13,Part200,10.4,10,10,12,MyCompany
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,1,Cog,3.751,141,41,401,121
+O,2,Spring,2.3,7,5,20,C1
+O,3,Screw,0.11,280,100,1000,CompanyLtd
+O,4,part1,1.34,15,2,15,me
+I,5,part2,1.23,11,1,11,1
+O,6,p3,1.0,11,1,13,ebgef
+I,7,p111,1.23,11,2,12,23
+O,8,part10,1.51,5,2,19,none
+I,10,part11,1.23,1,1,9,123
+I,11,part12,1.89,3,1,8,124
+O,12,Part100,2.34,10,4,10,NewCompany
+O,13,Part200,10.4,10,10,12,MyCompany
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+]]></system-out>
   </testcase>
-  <testcase name="addProduct_minInvalid_TC4_ECP" classname="inventory.service.InventoryServiceTest" time="0">
-    <error message="Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not &quot;opens inventory.service&quot; to unnamed module @4da4253" type="java.lang.reflect.InaccessibleObjectException">java.lang.reflect.InaccessibleObjectException: Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not "opens inventory.service" to unnamed module @4da4253
-</error>
+  <testcase name="addProduct_validData_TC2_BVA" classname="inventory.service.InventoryServiceTest" time="0.02">
+    <system-out><![CDATA[I,1,Cog,3.751,141,41,401,121
+O,2,Spring,2.3,7,5,20,C1
+O,3,Screw,0.11,280,100,1000,CompanyLtd
+O,4,part1,1.34,15,2,15,me
+I,5,part2,1.23,11,1,11,1
+O,6,p3,1.0,11,1,13,ebgef
+I,7,p111,1.23,11,2,12,23
+O,8,part10,1.51,5,2,19,none
+I,10,part11,1.23,1,1,9,123
+I,11,part12,1.89,3,1,8,124
+O,12,Part100,2.34,10,4,10,NewCompany
+O,13,Part200,10.4,10,10,12,MyCompany
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,1,Cog,3.751,141,41,401,121
+O,2,Spring,2.3,7,5,20,C1
+O,3,Screw,0.11,280,100,1000,CompanyLtd
+O,4,part1,1.34,15,2,15,me
+I,5,part2,1.23,11,1,11,1
+O,6,p3,1.0,11,1,13,ebgef
+I,7,p111,1.23,11,2,12,23
+O,8,part10,1.51,5,2,19,none
+I,10,part11,1.23,1,1,9,123
+I,11,part12,1.89,3,1,8,124
+O,12,Part100,2.34,10,4,10,NewCompany
+O,13,Part200,10.4,10,10,12,MyCompany
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+]]></system-out>
   </testcase>
-  <testcase name="addProduct_validData_TC1_ECP" classname="inventory.service.InventoryServiceTest" time="0">
-    <error message="Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not &quot;opens inventory.service&quot; to unnamed module @4da4253" type="java.lang.reflect.InaccessibleObjectException">java.lang.reflect.InaccessibleObjectException: Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not "opens inventory.service" to unnamed module @4da4253
-</error>
+  <testcase name="addProduct_validData_TC8_BVA" classname="inventory.service.InventoryServiceTest" time="0.017">
+    <system-out><![CDATA[I,1,Cog,3.751,141,41,401,121
+O,2,Spring,2.3,7,5,20,C1
+O,3,Screw,0.11,280,100,1000,CompanyLtd
+O,4,part1,1.34,15,2,15,me
+I,5,part2,1.23,11,1,11,1
+O,6,p3,1.0,11,1,13,ebgef
+I,7,p111,1.23,11,2,12,23
+O,8,part10,1.51,5,2,19,none
+I,10,part11,1.23,1,1,9,123
+I,11,part12,1.89,3,1,8,124
+O,12,Part100,2.34,10,4,10,NewCompany
+O,13,Part200,10.4,10,10,12,MyCompany
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1,Cog,3.751,141,41,401,121
+O,2,Spring,2.3,7,5,20,C1
+O,3,Screw,0.11,280,100,1000,CompanyLtd
+O,4,part1,1.34,15,2,15,me
+I,5,part2,1.23,11,1,11,1
+O,6,p3,1.0,11,1,13,ebgef
+I,7,p111,1.23,11,2,12,23
+O,8,part10,1.51,5,2,19,none
+I,10,part11,1.23,1,1,9,123
+I,11,part12,1.89,3,1,8,124
+O,12,Part100,2.34,10,4,10,NewCompany
+O,13,Part200,10.4,10,10,12,MyCompany
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+I,1001,cioburi de oglinda,5000.0,200,5,1000,1
+I,1002,bani,5.0E8,200,5,1000,1
+I,1003,prieteni,5.0E8,200,5,1000,1
+I,1004,fericire,5.0E8,200,5,1000,1
+I,1005,timp liber,5.0E8,200,5,1000,1
+I,1000,creier,1.0,200,5,1000,1
+I,2000,familie,50.0,200,5,1000,1
+I,3000,pisica neagra,50.0,200,5,1000,1
+]]></system-out>
   </testcase>
-  <testcase name="addProduct_validData_TC2_BVA" classname="inventory.service.InventoryServiceTest" time="0">
-    <error message="Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not &quot;opens inventory.service&quot; to unnamed module @4da4253" type="java.lang.reflect.InaccessibleObjectException">java.lang.reflect.InaccessibleObjectException: Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not "opens inventory.service" to unnamed module @4da4253
-</error>
-  </testcase>
-  <testcase name="addProduct_validData_TC8_BVA" classname="inventory.service.InventoryServiceTest" time="0.001">
-    <error message="Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not &quot;opens inventory.service&quot; to unnamed module @4da4253" type="java.lang.reflect.InaccessibleObjectException">java.lang.reflect.InaccessibleObjectException: Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not "opens inventory.service" to unnamed module @4da4253
-</error>
-  </testcase>
-  <testcase name="addProduct_inStockInvalid_TC10_BVA[1]" classname="inventory.service.InventoryServiceTest" time="0">
-    <error message="Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not &quot;opens inventory.service&quot; to unnamed module @4da4253" type="java.lang.reflect.InaccessibleObjectException">java.lang.reflect.InaccessibleObjectException: Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not "opens inventory.service" to unnamed module @4da4253
-</error>
-  </testcase>
-  <testcase name="addProduct_inStockInvalid_TC10_BVA[2]" classname="inventory.service.InventoryServiceTest" time="0">
-    <error message="Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not &quot;opens inventory.service&quot; to unnamed module @4da4253" type="java.lang.reflect.InaccessibleObjectException">java.lang.reflect.InaccessibleObjectException: Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not "opens inventory.service" to unnamed module @4da4253
-</error>
-  </testcase>
+  <testcase name="addProduct_inStockInvalid_TC10_BVA" classname="inventory.service.InventoryServiceTest" time="0.021"/>
+  <testcase name="addProduct_inStockInvalid_TC10_BVA" classname="inventory.service.InventoryServiceTest" time="0.002"/>
 </testsuite>

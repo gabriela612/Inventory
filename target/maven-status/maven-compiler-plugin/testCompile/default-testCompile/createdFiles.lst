@@ -1,5 +1,6 @@
 inventory\InventoryServiceUnitTest.class
 inventory\service\InventoryServiceRepositoryIntegrationTest.class
+inventory\service\InventoryServiceTest.class
 inventory\repository\InventoryInMemoryRepositoryTest.class
 inventory\InventoryServiceRepositoryIntegrationTest.class
 inventory\PartUnitTest.class

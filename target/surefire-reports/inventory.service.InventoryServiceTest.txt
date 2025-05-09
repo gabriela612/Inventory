@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: inventory.service.InventoryServiceTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 0.018 s <<< FAILURE! - in inventory.service.InventoryServiceTest
+addProduct_pretInvalid_TC2_ECP  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not "opens inventory.service" to unnamed module @4da4253
+
+addProduct_pretInvalid_TC3_ECP  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not "opens inventory.service" to unnamed module @4da4253
+
+addProduct_minInvalid_TC1_BVA[1]  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not "opens inventory.service" to unnamed module @4da4253
+
+addProduct_minInvalid_TC1_BVA[2]  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not "opens inventory.service" to unnamed module @4da4253
+
+addProduct_minInvalid_TC4_ECP  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not "opens inventory.service" to unnamed module @4da4253
+
+addProduct_validData_TC1_ECP  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not "opens inventory.service" to unnamed module @4da4253
+
+addProduct_validData_TC2_BVA  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not "opens inventory.service" to unnamed module @4da4253
+
+addProduct_validData_TC8_BVA  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not "opens inventory.service" to unnamed module @4da4253
+
+addProduct_inStockInvalid_TC10_BVA[1]  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not "opens inventory.service" to unnamed module @4da4253
+
+addProduct_inStockInvalid_TC10_BVA[2]  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make inventory.service.InventoryServiceTest() accessible: module inventory does not "opens inventory.service" to unnamed module @4da4253
+

@@ -157,7 +157,8 @@ public class Product {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Product product)) return false;
+        if (!(o instanceof Product)) return false;
+        Product product = (Product) o;
         return Double.compare(getPrice(), product.getPrice()) == 0 && getInStock() == product.getInStock() && getMin() == product.getMin() && getMax() == product.getMax() && getAssociatedParts().containsAll(product.getAssociatedParts()) && Objects.equals(getName(), product.getName());
     }
 

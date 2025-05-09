@@ -121,7 +121,8 @@ public abstract class Part {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Part part)) return false;
+        if (!(o instanceof Part)) return false;
+        Part part = (Part) o;
         return Double.compare(getPrice(), part.getPrice()) == 0 && getInStock() == part.getInStock() && getMin() == part.getMin() && getMax() == part.getMax() && Objects.equals(getName(), part.getName());
     }
 

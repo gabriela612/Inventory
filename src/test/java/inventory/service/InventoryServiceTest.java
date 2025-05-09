@@ -11,6 +11,7 @@ import org.junit.jupiter.api.*;
 
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.stream.Collectors;
 
 class InventoryServiceTest {
 
@@ -39,7 +40,8 @@ class InventoryServiceTest {
                     inventoryFileRepository.getAllParts().stream()
                             .sorted(Comparator.comparingInt(Part::getPartId).reversed())
                             .limit(1)
-                            .toList());
+                            .collect(Collectors.toList()));
+//                            .toList());
             Product product = new Product(-1, "IQ", 500000000, 100, 0, 1000000, parts);
 
             //act
@@ -68,7 +70,8 @@ class InventoryServiceTest {
                     inventoryFileRepository.getAllParts().stream()
                             .sorted(Comparator.comparingInt(Part::getPartId).reversed())
                             .limit(1)
-                            .toList());
+                            .collect(Collectors.toList()));
+//                            .toList());
 
             //act
             inventoryService.addProduct("ghinion", -2000, 10, 0, 100, parts);
@@ -95,7 +98,8 @@ class InventoryServiceTest {
                     inventoryFileRepository.getAllParts().stream()
                             .sorted(Comparator.comparingInt(Part::getPartId).reversed())
                             .limit(2)
-                            .toList());
+                            .collect(Collectors.toList()));
+//                            .toList());
 
             //act
             inventoryService.addProduct("fericire", 1000000000, 0, 10, 100, parts);
@@ -122,7 +126,8 @@ class InventoryServiceTest {
                     inventoryFileRepository.getAllParts().stream()
                             .sorted(Comparator.comparingInt(Part::getPartId).reversed())
                             .limit(2)
-                            .toList());
+                            .collect(Collectors.toList()));
+//                            .toList());
 
             //act
             inventoryService.addProduct("rabdare", 1000000000, 20, -1, 100, parts);
@@ -163,7 +168,8 @@ class InventoryServiceTest {
                     inventoryFileRepository.getAllParts().stream()
                             .sorted(Comparator.comparingInt(Part::getPartId).reversed())
                             .limit(1)
-                            .toList());
+                            .collect(Collectors.toList()));
+//                            .toList());
             Product product = new Product(-1, "fericire", 100000, 10, 0, 100, parts);
 
             //act
@@ -191,7 +197,8 @@ class InventoryServiceTest {
                     inventoryFileRepository.getAllParts().stream()
                             .sorted(Comparator.comparingInt(Part::getPartId).reversed())
                             .limit(1)
-                            .toList());
+                            .collect(Collectors.toList()));
+//                            .toList());
             Product product = new Product(-1, "ghinion", 2000, 100, 100, 100, parts);
 
             //act
